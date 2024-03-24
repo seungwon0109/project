@@ -1,0 +1,88 @@
+/* 전체 레이아웃 스타일 */
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+/* 상단바 스타일 */
+.topbar {
+background-color: #333;
+color: #fff;
+padding: 10px 20px;
+}
+
+/* 사이드바 스타일 */
+.sidebar {
+width: 250px;
+background-color: #222;
+position: fixed;
+height: 100%;
+overflow-y: auto;
+}
+
+/* 메인 컨텐츠 스타일 */
+.main-content {
+margin-left: 250px;
+padding: 20px;
+}
+
+/* 사이드바 링크 스타일 */
+.sidebar a {
+display: block;
+padding: 25px 50px;
+color: #fff;
+text-decoration: none;
+}
+
+/* 활성화된 링크 스타일 */
+.sidebar a.active {
+background-color: #444;
+}
+
+body {
+    background-image: url('/과제/img/배경화면.png');
+    background-size: cover; /* 배경 이미지를 창에 꽉 채우도록 설정 */
+    background-repeat: no-repeat; /* 배경 이미지 반복 안 함 */
+    margin: 0; /* body의 기본 마진 제거 */
+    padding: 0; /* body의 기본 패딩 제거 */
+    font-family: Arial, sans-serif; /* 기본 폰트 설정 */
+    /* 다른 body 스타일 속성들을 추가할 수 있습니다. */
+}
+
+
+button {
+    padding: 5px 10px;
+    margin: 5px 10px;
+    font-size:  large;
+    font-weight: bold;
+    background-color: #444;
+
+}
+
+button:hover{
+    color:aqua;
+    background-color: greenyellow;
+}
+
+
+/* 이미지들을 감싸는 컨테이너 스타일 */
+.show {
+    margin-left: 250px; /* 사이드바의 너비 + 여백 만큼 이동 */
+}
+
+/* 이미지 스타일 */
+.show a {
+    display: block; /* 이미지를 블록 요소로 표시하여 수직으로 배치 */
+    margin-bottom: 10px; /* 이미지들 간의 간격 설정 */
+}
+
+.show fieldset {
+    display: flex; /* 컨테이너를 플렉스 박스로 설정 */
+    align-items: center; /* 수직 정렬 */
+    margin-bottom: 20px; /* 각 fieldset 아래 간격 추가 */
+}
+
+.show img {
+    margin-right: 20px; /* 이미지와 텍스트 사이 간격 설정 */
+}
